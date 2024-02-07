@@ -1,0 +1,124 @@
+:root {
+  --primary-main: #484f4f;
+  --secondary-main: #c8c3cc;
+  --backgroundcolor: #292F33;
+  --activeLinks-color: #8ca3a3
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box
+}
+
+.textColor {
+  color: var(--secondary-main)
+}
+
+.justifyCenter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center
+}
+
+.appContainer {
+  height: 100vh;
+  padding-top: 5rem;
+  background-color: var(--backgroundcolor)
+}
+
+.homeContainer {
+  height: 70vh
+}
+
+.centerItems {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.textCenter {
+  text-align: center
+}
+
+.navLink {
+  text-decoration: none;
+  color: var(--secondary-main);
+  transition: all 300ms ease;
+}
+
+.navLink:hover {
+  color: var(--activeLinks-color);
+  font-size: 1.5rem;
+}
+
+.navLink-active {
+  color: var(--activeLinks-color);
+  text-decoration: none;
+  font-size: 1.3rem;
+  transition: all 300ms ease
+}
+
+.navLink-active:hover {
+  color: var(--activeLinks-color);
+  text-decoration: none;
+}
+
+.MuiFormLabel-root {
+  color: var(--secondary-main) !important
+}
+
+.css-z32ctq-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  color: var(--secondary-main) !important 
+}
+
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+  color: var(--secondary-main) !important 
+}
+
+.MuiOutlinedInput-notchedOutline  {
+  border: 1px solid var(--secondary-main) !important
+}
+
+.MuiPaper-root {
+  max-height: 20vh !important
+}
+
+.MuiFormControl-root:hover .MuiSelect-icon {
+  color: var(--activeLinks-color) !important
+}
+
+.MuiFormControl-root:hover .MuiFormLabel-root {
+  color: var(--activeLinks-color) !important
+}
+
+.MuiFormControl-root:hover .css-z32ctq-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  color: var(--activeLinks-color) !important
+}
+
+.MuiFormControl-root:hover .MuiOutlinedInput-notchedOutline  {
+  border: 1px solid var(--activeLinks-color) !important
+}
+
+.quizQuestionContainer {
+  margin-top: 3rem;
+}
+
+.containerCenterItems {
+  display: flex;
+  justify-content:center;
+}
+
+.marginTop5rem {
+  margin-top: 5rem;
+}
+
+.marginBottom3rem {
+  margin-Bottom: 3rem;
+}
+
+
+
+
+
