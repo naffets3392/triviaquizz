@@ -10,7 +10,7 @@ import { QuestionType } from "../types";
 import Loading from "./Loading";
 import Question from "./Question";
 
-export default function Categories() {
+export default function CategoriesAndQuestion() {
     const {windowWidth} = useWindowWidth()
     const {CATEGORIES, DIFFICULTIES, TYPES, categoriesLoading} = useCategories()
     const [QUESTIONS,setQUESTIONS] = useState<QuestionType[]>([])

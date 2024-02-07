@@ -1,12 +1,12 @@
 import { Box } from '@mui/material'
 import { quizPageContainer } from "../AppStyles";
-import Categories from "../components/Categories";
+import CategoriesAndQuestion from "../components/CategoriesAndQuestion";
 
 
 export default function Quizz() {
     return (
         <Box className="justifyCenter" sx={quizPageContainer}>
-            <Categories />
+            <CategoriesAndQuestion />
         </Box>
     )
 }
